@@ -1,0 +1,37 @@
+@use '../../../assets/styles/colors';
+
+.wrapper {
+  width: 333px;
+  height: 401px;
+  padding: 0 16px;
+  border-radius: 24px;
+  background: colors.$secondaryBackground;
+}
+
+.dateWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 16px 16px;
+  text-transform: capitalize;
+}
+.quoteWrapper {
+  width: 301px;
+  height: 137px;
+  display: flex;
+  align-items: center;
+  background: #17181c;
+  border-radius: 16px;
+}
+
+.analyticsBlockWrapper {
+  margin: 24px 0;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.analyticsItemWrapper {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}

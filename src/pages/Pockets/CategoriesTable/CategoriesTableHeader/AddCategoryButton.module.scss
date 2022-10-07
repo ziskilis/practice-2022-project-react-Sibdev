@@ -1,0 +1,13 @@
+@use '../../../../assets/styles/colors';
+
+.buttonIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: colors.$secondaryBackground;
+  color: colors.$brand;
+  font-size:x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

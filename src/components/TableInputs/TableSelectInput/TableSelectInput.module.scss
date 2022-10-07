@@ -1,0 +1,31 @@
+@use '../../../assets/styles/colors';
+
+.selector {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  &:disabled {
+    color: black;
+    cursor: default;
+  }
+}
+
+.choosedOption {
+  text-align: left;
+}
+
+.defaultOption {
+  text-align: center;
+  color: colors.$default;
+}
+.textPosition {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.textIcon {
+  position: absolute;
+  right: 0;
+  color: colors.$brand;
+  transform: rotate(180deg) scaleY(0.6);
+}

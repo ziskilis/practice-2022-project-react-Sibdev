@@ -1,0 +1,60 @@
+@use '../../assets/styles/colors';
+
+.selectWrapper {
+  padding: 0px;
+  gap: 8px;
+  width: 280px;
+  height: 180px;
+  padding: 10px;
+  background: colors.$secondaryBackground;
+  box-shadow: 0px 12px 33px -8px rgba(48, 24, 134, 0.11);
+  border-radius: 16px 0px 16px 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  overflow: scroll;
+}
+.sortWrapper {
+  width: 291px;
+  height: 372px;
+  position: relative;
+  top: 6px;
+  right: 100px;
+  background: colors.$primaryBackground;
+  box-shadow: 0px 12px 33px -8px rgba(44, 20, 129, 0.52);
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 11px 16px 16px;
+  gap: 16px;
+  & div:nth-child(2n) {
+    padding-bottom: 16px;
+    border-bottom: 4px solid #22242c;
+  }
+  & div:last-child {
+    border-bottom: none;
+  }
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sortItem {
+  font-size: 14px;
+}
+
+.icon {
+  opacity: 0.5;
+}

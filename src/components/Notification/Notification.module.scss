@@ -1,0 +1,13 @@
+@use '../../assets/styles/colors';
+
+.wrapper {
+  min-width: 100px;
+  min-height: 40px;
+  background-color: colors.$primary;
+  box-shadow: 0px 4px 24px 0px hsla(0deg, 0%, 0%, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}

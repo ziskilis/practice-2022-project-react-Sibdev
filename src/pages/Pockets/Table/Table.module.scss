@@ -1,0 +1,30 @@
+@use '../../../assets/styles/colors';
+
+.wrapper {
+  width: 431px;
+  height: 292px;
+  bottom: 18px;
+  border-radius: 16px;
+  background: colors.$primaryBackground;
+  position: relative;
+  padding: auto 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.empty {
+  width: 100%;
+  padding-top: 130px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.5;
+}

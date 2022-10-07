@@ -1,0 +1,9 @@
+.wrapper {
+  position: relative;
+}
+
+.contentWrapper {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+}

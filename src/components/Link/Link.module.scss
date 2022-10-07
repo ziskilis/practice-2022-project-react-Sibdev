@@ -1,0 +1,6 @@
+@use '../../assets//styles/colors';
+
+.link {
+  color: colors.$brand;
+  text-decoration: none;
+}

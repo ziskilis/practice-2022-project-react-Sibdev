@@ -1,0 +1,42 @@
+@use '../../../assets/styles/colors';
+
+.analyticsWrapper {
+  width: 369px;
+  height: 404px;
+  border-radius: 24px;
+  padding: 28px 16px;
+  background: colors.$secondaryBackground;
+}
+
+.analyticsItemWrapper {
+  width: 337px;
+  height: 32px;
+  padding: 0 16px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.mainItems {
+  border-radius: 100px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  background: colors.$primaryBackground;
+}
+
+.line {
+  margin-left: 16px;
+  width: 305px;
+  height: 4px;
+  margin-top: 4px;
+  margin-bottom: 17px;
+  background: colors.$primaryBackground;
+}

@@ -1,0 +1,30 @@
+@use '../../../../assets/styles/colors';
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: colors.$brand;
+  &__none {
+    color: colors.$primary;
+    position: relative;
+    left: 5px;
+  }
+}
+.iconWrapper {
+  position: relative;
+  right: 10px;
+  &__none {
+    display: none;
+  }
+  &__asc {
+    color: colors.$brand;
+    font-size: 20px;
+  }
+  &__desc {
+    font-size: 20px;
+    color: colors.$brand;
+    transform: rotate(180deg);
+  }
+}

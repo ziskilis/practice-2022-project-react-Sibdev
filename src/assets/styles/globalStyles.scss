@@ -1,0 +1,38 @@
+@use './colors';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: colors.$primaryBackground;
+}
+
+body *::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+}
+
+body *::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 18px;
+  background: rgba($color: #ffffff, $alpha: 0.02);
+}
+body *::-webkit-scrollbar-corner {
+  opacity: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  background-color: transparent;
+}

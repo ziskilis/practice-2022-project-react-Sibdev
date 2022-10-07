@@ -1,0 +1,17 @@
+@use '../../../assets/styles/colors';
+
+.button {
+  cursor: pointer;
+  &:focus-visible {
+    border-bottom: 1px solid colors.$brand;
+  }
+}
+
+.textPosition {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}

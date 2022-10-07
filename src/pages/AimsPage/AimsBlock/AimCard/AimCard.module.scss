@@ -1,0 +1,46 @@
+@use '../../../../assets/styles/colors';
+.wrapper {
+  height: 326px;
+  width: 277px;
+  position: relative;
+  padding: 15px;
+}
+
+.AimCardWrapper {
+  height: 296px;
+  width: 277px;
+  padding: 20px 16px;
+  background: colors.$primaryBackground;
+  border-radius: 24px 0px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AimCardButtonWrapper {
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+.AimCardButtonShadow {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  right: 11px;
+  background: url(../../../../assets/img/Ellipse20.svg);
+}
+
+.cardText {
+  width: 245px;
+  height: 18px;
+  margin-bottom: 19px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 221px;
+  height: 68px;
+  border-radius: 12px;
+  border: none;
+  background-image: url(../../assets/img/dashedBackground.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

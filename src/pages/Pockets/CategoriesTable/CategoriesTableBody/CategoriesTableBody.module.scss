@@ -1,0 +1,64 @@
+@use '../../../../assets/styles/colors';
+
+.wrapper {
+  position: relative;
+  width: 308px;
+  height: 250px;
+  border-radius: 16px;
+  background: colors.$primaryBackground;
+}
+.headerWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 40px;
+  padding: 12px 0 10px 15px;
+  border-bottom: 2px solid #22242c;
+}
+
+.contentWrapper {
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.categoryItem {
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #22242c;
+}
+
+.categoryItemColumn {
+  width: 125px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.rightColumnItem {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightColumnItemText {
+  width: 90px;
+}
+
+.addCategoryButtonWrapper {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  border-top: 2px solid #22242c;
+}
+.emptyCategoryText {
+  width: 180px;
+  margin-left: 38px;
+  margin-bottom: 28px;
+}

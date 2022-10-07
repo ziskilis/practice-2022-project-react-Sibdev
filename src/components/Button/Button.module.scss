@@ -1,0 +1,55 @@
+@use '../../assets/styles/colors';
+
+.button {
+  padding: 0 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &__primary {
+    width: 280px;
+    height: 56px;
+    background-color: colors.$primaryNew;
+    color: colors.$primalText;
+    box-shadow: 0px 4px 13px rgba(81, 83, 205, 0.42);
+  }
+
+  &__brand {
+    width: 100%;
+    height: 40px;
+    background-color: colors.$brand;
+  }
+
+  &__ghost {
+    background-color: transparent;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.button-color {
+  &__brand {
+    background-color: colors.$brand;
+  }
+
+  &__error {
+    background-color: colors.$error;
+  }
+
+  &__glass {
+    background-color: colors.$glass;
+  }
+  &__green {
+    background-color: #28c76f;
+  }
+  &__back {
+    background: colors.$primaryBackground;
+  }
+  &__secondary-back {
+    background: colors.$secondaryBackground;
+  }
+}

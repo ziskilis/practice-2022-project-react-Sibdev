@@ -1,0 +1,12 @@
+.dashboardAvatarWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  left: 16px;
+}
+.dashboardAvatar {
+  width: 64px;
+  height: 64px;
+  background: url(../../../assets/img/img-avatar.svg);
+}

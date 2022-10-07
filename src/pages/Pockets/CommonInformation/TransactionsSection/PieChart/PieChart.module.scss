@@ -1,0 +1,24 @@
+@use '../../../../../assets/styles/colors';
+
+.chartWrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.legendWrapper {
+  width: 160px;
+  height: 118px;
+  padding: 4px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: colors.$primaryBackground;
+}
+.pieWrapper {
+  width: 88px;
+  height: 88px;
+}

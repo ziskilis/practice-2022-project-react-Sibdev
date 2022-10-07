@@ -1,0 +1,15 @@
+.wrapper {
+  width: 385px;
+  height: 190px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deletionIcon {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 24px;
+  background-image: url(../../../../assets/img/Frame604.svg);
+}

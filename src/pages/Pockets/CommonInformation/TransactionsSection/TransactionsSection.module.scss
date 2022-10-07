@@ -1,0 +1,28 @@
+@use '../../../../assets/styles/colors';
+
+.wrapper {
+  width: 277px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tableItem {
+  width: 277px;
+  height: 32px;
+  padding: 0 14px;
+  margin-left: -4px;
+  margin-bottom: 8px;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: colors.$primaryBackground;
+}
+
+.dashboard {
+  margin-top: 35px;
+  width: 277px;
+  padding: 6px;
+  height: 115px;
+}

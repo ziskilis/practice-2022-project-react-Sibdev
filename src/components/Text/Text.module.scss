@@ -1,0 +1,91 @@
+@use '../../assets/styles/colors';
+
+.color__ {
+  &brand {
+    color: colors.$brand;
+  }
+  &primary {
+    color: colors.$primary;
+  }
+  &secondary {
+    color: colors.$secondary;
+  }
+  &black {
+    color: black;
+  }
+  &default {
+    color: colors.$default;
+  }
+  &contrast {
+    color: colors.$contrast;
+  }
+  &error {
+    color: colors.$error;
+  }
+  &success {
+    color: colors.$success;
+  }
+  &red {
+    color: #fc455b;
+  }
+  &white {
+    color: #ffffff;
+  }
+}
+
+.weight__ {
+  &400 {
+    font-weight: 400;
+  }
+  &500 {
+    font-weight: 500;
+  }
+  &600 {
+    font-weight: 600;
+  }
+  &700 {
+    font-weight: 700;
+  }
+}
+
+.size__ {
+  &xxs {
+    font-size: 10px;
+  }
+  &xs {
+    font-size: 12px;
+  }
+  &s {
+    font-size: 14px;
+  }
+  &m {
+    font-size: 16px;
+  }
+  &l {
+    font-size: 18px;
+  }
+  &xl {
+    font-size: 20px;
+  }
+  &xxl {
+    font-size: 34px;
+  }
+}
+
+.align__ {
+  &left {
+    text-align: left;
+  }
+  &center {
+    text-align: center;
+  }
+  &right {
+    text-align: right;
+  }
+}
+
+.decoration__ {
+  &under {
+    text-decoration: underline;
+  }
+}
